@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    tools:context=".Settings">
+
+    <com.euBilmuhDuyuru.ui.CustomPrefCategory android:title="@string/CTitle1">
+
+        <EditTextPreference
+            android:defaultValue=""
+            android:key="user_name"
+            android:summary="@string/Name_sum"
+            android:title="@string/Name" />
+        <EditTextPreference
+            android:defaultValue="0"
+            android:inputType="number"
+            android:key="user_number"
+            android:summary="@string/No_sum"
+            android:title="@string/No" />
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="search_in_content"
+            android:title="@string/sic_title" />
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="theme_light"
+            android:title="@string/theme_cb" />
+
+    </com.euBilmuhDuyuru.ui.CustomPrefCategory>
+
+    <com.euBilmuhDuyuru.ui.CustomPrefCategory
+        android:key="notification_category"
+        android:title="@string/CTitle2">
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="notification_enabled"
+            android:title="@string/notify" />
+        <ListPreference
+            android:defaultValue="0"
+            android:dependency="notification_enabled"
+            android:dialogTitle="@string/notifyFilter"
+            android:entries="@array/notifyFilters"
+            android:entryValues="@array/notifyFiltersVal"
+            android:key="notification_filter"
+            android:summary="@string/notifyFilter_sum"
+            android:title="@string/notifyFilter" />
+        <Preference
+            android:defaultValue="true"
+            android:key="notification_register"
+            android:title="@string/notifyRegister" />
+
+    </com.euBilmuhDuyuru.ui.CustomPrefCategory>
+
+    <com.euBilmuhDuyuru.ui.CustomPrefCategory android:title="@string/CTitle4">
+        <Preference
+            android:key="author"
+            android:summary="@string/author_sum"
+            android:title="@string/author_t" />
+        <Preference
+            android:key="license"
+            android:title="@string/licenses" />
+    </com.euBilmuhDuyuru.ui.CustomPrefCategory>
+
+    <PreferenceScreen
+        android:key="developer"
+        android:title="@string/other_settings">
+        <com.euBilmuhDuyuru.ui.CustomPrefCategory android:title="@string/CTitle3">
+            <Preference
+                android:key="reset_database"
+                android:summary="@string/db_ref_sum"
+                android:title="@string/db_ref" />
+        </com.euBilmuhDuyuru.ui.CustomPrefCategory>
+    </PreferenceScreen>
+
+</PreferenceScreen> <!-- android:background="#1b1e20" -->

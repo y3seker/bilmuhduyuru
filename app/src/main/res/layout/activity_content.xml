@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ac_root_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?attr/mBackground">
+
+    <io.codetail.widget.RevealFrameLayout
+        android:id="@+id/ac_reveal_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/ac_toolbar_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="56dp"
+            android:background="@color/orange500">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/ac_toolbar"
+                android:layout_width="match_parent"
+                android:theme="@style/ToolbarStyle"
+                app:popupTheme="?attr/mPopupStyle"
+                android:background="@android:color/transparent"
+                android:layout_height="@dimen/abc_action_bar_default_height_material"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/ac_toolbar_title"
+                style="@style/TextAppearance.AppCompat.Title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginTop="@dimen/abc_action_bar_default_height_material"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:padding="5dp"
+                android:text="@string/test_content_title"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/ac_toolbar_sub_title"
+                style="@style/TextAppearance.AppCompat.Subhead"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/ac_toolbar_title"
+                android:layout_marginLeft="16dp"
+                android:layout_marginRight="16dp"
+                android:padding="5dp"
+                android:text="@string/test_content_sub_title"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+    </io.codetail.widget.RevealFrameLayout>
+
+    <android.support.v7.widget.CardView
+        xmlns:card_view="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/ac_content_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/ac_reveal_layout"
+        android:visibility="visible"
+        android:layout_marginTop="-56dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        card_view:cardCornerRadius="3dp"
+        card_view:cardBackgroundColor="?attr/mForeground"
+        card_view:cardElevation="3dp"
+        card_view:cardPreventCornerOverlap="true"
+        card_view:cardUseCompatPadding="true"
+        card_view:contentPadding="3dp">
+
+        <TextView
+            android:id="@+id/ac_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ac_toolbar_title"
+            android:minHeight="112dp"
+            android:padding="5dp"
+            android:textIsSelectable="true"
+            android:textSize="16dp"
+            android:textColor="?attr/mTextColorPrimary" />
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <attr name="mBackground" format="color|reference" />
+    <attr name="mTextColorPrimary" format="color|reference" />
+    <attr name="mTextColorSecondary" format="color|reference" />
+    <attr name="mForeground" format="reference" />
+    <attr name="mPopupStyle" format="reference" />
+</resources>

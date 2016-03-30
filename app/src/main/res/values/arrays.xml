@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="empty_array" />
+
+    <integer-array name="toolbar_colors">
+        <item>@color/teal500</item>
+        <item>@color/red500</item>
+    </integer-array>
+
+    <integer-array name="statusbar_colors">
+        <item>@color/teal700</item>
+        <item>@color/red700</item>
+    </integer-array>
+
+    <string-array name="feed_type">
+        <item>Son Duyurular</item>
+        <item>Tüm Duyurular</item>
+    </string-array>
+
+    <string-array name="long_press_options">
+        <item>@string/open_in_browser</item>
+        <item>@string/share</item>
+    </string-array>
+
+    <string-array name="themeOptions">
+        <item>Açık</item>
+        <item>Koyu</item>
+    </string-array>
+
+    <string-array name="themeOptionsVal">
+        <item>light</item>
+        <item>dark</item>
+    </string-array>
+
+    <string-array name="notifyFilters">
+        <item>Filtre Yok</item>
+        <item>Yalnızca adınızı ve/veya numaranızı içeren</item>
+    </string-array>
+
+    <string-array name="notifyFiltersVal">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <string-array name="dersler">
+        <!-- 1 -->
+        <item>Algoritma ve Programlama</item>
+        <item>Atatürk İlkeleri ve İnkılap Tarihi</item>
+        <item>Bilgisayar Mühendisliğine Giriş</item>
+        <item>Fizik</item>
+        <item>Matematik</item>
+        <item>Sözlü ve Yazılı İletişim</item>
+        <item>Teknik İngilizce</item>
+        <item>Türk Dili</item>
+        <item>Üniversite Yaşamına Geçiş</item>
+
+        <item>Algoritma ve Programlama II</item>
+        <item>Atatürk İlkeleri ve İnkılap Tarihi II</item>
+        <item>Ayrık Yapılar</item>
+        <item>Fizik II</item>
+        <item>Introduction to Computer Science</item>
+        <item>Matematik II</item>
+        <item>Türk Dili II</item>
+
+        <!-- 2 -->
+        <item>Automata Theory</item>
+        <item>Data Structures</item>
+        <item>Diferansiyel Denklemler</item>
+        <item>Electrical Circuits</item>
+        <item>Mantık Devreleri Tasarımı</item>
+        <item>Olasılık ve İstatistik</item>
+
+        <item>Digital Computer Design</item>
+        <item>Digital Electronics</item>
+        <item>Doğrusal Cebir ve Nümerik Yöntemler</item>
+        <item>Modern Biyoloji</item>
+        <item>Programming Languages</item>
+        <item>Topluma Hizmet Uygulamaları</item>
+
+        <!-- 3 -->
+        <item>Bilgisayar Ağları</item>
+        <item>Database Management</item>
+        <item>İşletim Sistemleri</item>
+        <item>Mikroişlemciler</item>
+        <item>Nesneye Dayalı Programlama</item>
+        <item>Bilgisayar Güvenliğinin Temelleri</item>
+        <item>Üstortam Programlama</item>
+        <item>Windows Programlama</item>
+        <item>Yazarlık Dilleri</item>
+
+        <item>Algorithms</item>
+        <item>Bilgisayar Ağları II</item>
+        <item>İşletim Sistemleri II</item>
+        <item>Microcontroller Based System Design</item>
+        <item>Object Oriented Analysis and Design</item>
+        <item>Bilgisayar Grafikleri</item>
+        <item>Kriptoloji</item>
+        <item>Linux ile Web Programlama</item>
+        <item>Sistem Programlama</item>
+        <item>Web Tabanlı Windows Programlama</item>
+
+        <!-- 4 -->
+        <item>Bitirme Tezi</item>
+        <item>Bitirme Tezi Dönemlik</item>
+        <item>Software Engineering</item>
+        <item>Bilgi Gösterimi</item>
+        <item>Bulut Bilişim</item>
+        <item>Gömülü ve Gerçek Zamanlı Sist.</item>
+        <item>Ontoloji Mühendisliği</item>
+        <item>Simülasyon ve Modelleme</item>
+        <item>Test Yönelimli Geliştirme</item>
+        <item>Veri Madenciliği</item>
+        <item>Web Servisleri</item>
+        <item>Yönetim Bilişim Sistemleri</item>
+        <item>Girişimcilik ve Etik</item>
+        <item>Halkla Ilişkiler</item>
+        <item>Temel Bankacılık ve Bilişim Teknolojileri</item>
+
+
+        <item>Computer Architecture</item>
+        <item>Yöneylem Araştırması</item>
+        <item>Bulut Bilişim</item>
+        <item>Gerçek Zamanlı İşletim Sistemleri</item>
+        <item>İşlemsel Zeka</item>
+        <item>İstemci-Sunucu Sistemleri</item>
+        <item>Ontoloji Mühendisliği</item>
+        <item>Sistem Analizi ve Tasarımı</item>
+        <item>Sunucu Yazılım Teknolojileri</item>
+        <item>Üretim Bilgi Sistemleri</item>
+        <item>Yazılım Kullanılabilirliği</item>
+        <item>Ekonomi</item>
+        <item>İnsan Kaynakları Yönetimi</item>
+        <item>İş Hukuku</item>
+        <item>Mühendisler İçin Temel Yönetim ve Yöneticilik Becerileri</item>
+        <item>Siyasi Tarih</item>
+        <item>Sosyoloji</item>
+    </string-array>
+
+
+    <string-array name="lib_urls">
+        <item>https://square.github.io/retrofit/</item>
+        <item>https://github.com/JakeWharton/butterknife</item>
+        <item>https://github.com/ozodrukh/CircularReveal</item>
+    </string-array>
+
+    <string-array name="libs">
+        <item>Retrofit</item>
+        <item>ButterKnife</item>
+        <item>CircularReveal</item>
+    </string-array>
+
+</resources>

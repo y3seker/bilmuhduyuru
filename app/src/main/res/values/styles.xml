@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="MainDark" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/teal500</item>
+        <item name="colorAccent">@color/yellowish</item>
+        <item name="colorPrimaryDark">@color/teal700</item>
+
+        <item name="mBackground">@color/grey900</item>
+        <item name="mTextColorPrimary">@color/white</item>
+        <item name="mTextColorSecondary">@color/half_white</item>
+        <item name="mForeground">@color/grey800</item>
+        <item name="mPopupStyle">@style/ThemeOverlay.AppCompat</item>
+
+        <item name="android:windowBackground">@color/grey900</item>
+        <item name="windowNoTitle">true</item>
+        <item name="searchViewStyle">@style/AppTheme.SearchView</item>
+    </style>
+
+
+    <!-- Light Theme -->
+
+    <style name="MainLight" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="colorPrimary">@color/teal500</item>
+        <item name="colorAccent">@color/yellowish</item>
+        <item name="colorPrimaryDark">@color/teal700</item>
+
+        <item name="mBackground">@color/grey300</item>
+        <item name="mForeground">@color/grey100</item>
+        <item name="mTextColorPrimary">@color/black</item>
+        <item name="mTextColorSecondary">@color/grey700</item>
+        <item name="mPopupStyle">@style/ThemeOverlay.AppCompat.Light</item>
+
+        <item name="android:windowBackground">@color/grey300</item>
+        <item name="windowNoTitle">true</item>
+        <item name="searchViewStyle">@style/AppTheme.SearchView</item>
+    </style>
+
+    <!-- PREF STYLES -->
+
+    <style name="PrefDark" parent="Theme.AppCompat">
+        <item name="colorAccent">@color/blue500</item>
+        <item name="colorPrimary">@color/blue500</item>
+        <item name="colorPrimaryDark">@color/blue700</item>
+
+        <item name="android:listViewStyle">@style/DarkListView</item>
+    </style>
+
+    <style name="PrefLight" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">@color/blue500</item>
+        <item name="colorPrimary">@color/blue500</item>
+        <item name="colorPrimaryDark">@color/blue700</item>
+
+        <item name="android:listViewStyle">@style/LightListView</item>
+    </style>
+
+    <style name="DarkListView" parent="Widget.AppCompat.ListView">
+        <item name="android:background">@color/grey900</item>
+        <item name="android:panelBackground">@color/grey900</item>
+        <item name="android:windowBackground">@color/grey900</item>
+
+        <item name="android:headerDividersEnabled">false</item>
+        <item name="android:divider">@null</item>
+    </style>
+
+    <style name="LightListView" parent="Widget.AppCompat.ListView">
+        <item name="android:background">@color/grey300</item>
+        <item name="android:panelBackground">@color/grey300</item>
+        <item name="android:windowBackground">@color/grey300</item>
+
+        <item name="android:headerDividersEnabled">false</item>
+        <item name="android:divider">@null</item>
+    </style>
+
+    <!-- TOOLBARS -->
+
+    <style name="ToolbarStyle" parent="ThemeOverlay.AppCompat">
+
+        <item name="colorPrimary">@color/teal500</item>
+        <item name="colorAccent">@color/white</item>
+        <item name="colorPrimaryDark">@color/teal700</item>
+
+        <item name="android:textColorSecondary">@color/white</item>
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+
+    <!-- CONTENT STYLES -->
+
+    <style name="ContentDark" parent="MainDark">
+
+        <item name="colorPrimary">@color/orange500</item>
+        <item name="colorAccent">@color/ateal400</item>
+        <item name="colorPrimaryDark">@color/orange700</item>
+
+        <item name="windowActionModeOverlay">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+
+        <item name="actionModeStyle">@style/Content.ActionMode</item>
+    </style>
+
+    <style name="ContentLight" parent="MainLight">
+
+        <item name="colorPrimary">@color/orange500</item>
+        <item name="colorAccent">@color/ateal400</item>
+        <item name="colorPrimaryDark">@color/orange700</item>
+
+        <item name="windowActionModeOverlay">true</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+
+        <item name="actionModeStyle">@style/Content.ActionMode</item>
+
+    </style>
+
+    <style name="Content.ActionMode" parent="@style/Widget.AppCompat.ActionMode">
+        <item name="android:background">@color/orange500</item>
+        <item name="android:actionModeSplitBackground">@color/white</item>
+        <item name="background">@color/orange500</item>
+        <item name="actionModeSplitBackground">@color/white</item>
+        <item name="backgroundSplit">@color/white</item>
+    </style>
+
+    <!-- OTHER VIEWS-->
+
+    <style name="SpinnerTheme" parent="Theme.AppCompat.Light">
+        <item name="android:textColorSecondary">@android:color/transparent</item>
+    </style>
+
+    <style name="AppTheme.SearchView" parent="Widget.AppCompat.SearchView">
+        <item name="searchIcon">@drawable/abc_ic_search_api_mtrl_alpha</item>
+        <item name="android:searchHintIcon">@null</item>
+    </style>
+</resources>
+
+    <!--  <item name="windowActionModeOverlay">true</item> -->

@@ -1,0 +1,27 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="?attr/mBackground">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/search_rv"
+        android:layout_width="fill_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/abc_action_bar_default_height_material"
+        android:scrollbars="vertical"
+        android:visibility="visible" />
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/search_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/abc_action_bar_default_height_material"
+        android:background="?attr/colorPrimary"
+        android:theme="@style/ToolbarStyle"
+        android:visibility="visible"
+        app:layout_scrollFlags="scroll|enterAlways"
+        app:popupTheme="?attr/mPopupStyle" />
+
+
+</RelativeLayout>

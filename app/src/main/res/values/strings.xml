@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Bilmuh Duyuru</string>
+
+    <!-- List view -->
+    <string name="lv_duyuru">Duyuru</string>
+    <string name="lv_tarih">Tarih</string>
+    <string name="bt_ara">Ara</string>
+    <string name="buttonText">Tüm Duyurular</string>
+    <string name="buttonBack">&lt; Geri</string>
+    <!-- &lt; kucuktur isareti icin -->
+
+    <!-- Prefs -->
+    <string name="CTitle1">Ayarlar</string>
+    <string name="No">Numaranız</string>
+    <string name="No_sum">11 Haneli olarak giriniz.</string>
+    <string name="Name">Adınız</string>
+    <string name="Name_sum">Lütfen Türkçe karakter kullanın.</string>
+    <string name="load">Duyuru Sayısı</string>
+    <string name="load_sum">Görüntülenecek duyuru sayısı.\n(Aramalar bu değere bağlı değildir.)</string>
+    <string name="theme">Tema</string>
+    <string name="theme_sum">Açık veya koyu tema tonu.</string>
+    
+    <string name="CTitle2">Bildirim Ayarları</string>
+    <string name="notify">Bildirimler</string>
+    <string name="notify_sum">Bildirimleri aç/kapat.</string>
+    <string name="notifySound">Bildirim Sesi</string>
+    <string name="notifySound_sum">Bildirim ses ve titreşimini (varsayılan ayarlara göre) aç/kapat.</string>
+    <string name="notifyFilter">Bildirim Filtreleri</string>
+    <string name="notifyFilter_sum">Yalnızca seçtiğiniz duyurular için bildirim alırsınız. Duyurular alınmaya devam eder.</string>
+    <string name="notifyRegister">Bildirim Kaydı</string>
+    <string name="notifyReg_sum_s">Kayıt Başarılı</string>
+    <string name="notifyReg_sum_f">Kayıt Başarısız</string>
+
+    <string name="CTitle3">Sunucu</string>
+    <string name="db_ref">Veritabanını Sıfırla</string>
+    <string name="db_ref_sum">Veritabanı silinip, duyurular kaynaktan tekrar alınır.
+        						(Veritabanı boş veya hatalı değilse bu işlem gereksizdir.)</string>
+
+    <string name="CTitle4">Hakkında</string>
+    <string name="author_sum">Geliştirici</string>
+    <string name="author_t">Yunus Emre Şeker</string>
+    <string name="gcm_error">\nGCM sunucularına kayıtlanılamadı. Google Play Servislerinin yüklü olduğundan emin olun.
+                            Eğer hata tekrar ediyorsa; Ayarlar/Uygulamalar/Tümü/Google Services Framework/Verileri Temizle
+                            seçeneğini deneyebilirsiniz.</string>
+    <string name="server_error">Sunucu kaydı sırasında hata meydana geldi. Lütfen tekrar deneyin.</string>
+
+    <string name="searchTitle">Başlıklarda ara</string>
+    <string name="searchContent">İçeriklerde ara</string>
+    <string name="searched">Tüm Duyurular butonuna tıklayarak geri dönebilirsiniz.</string>
+    <!-- Menu -->
+    <string name="action_settings">Ayarlar</string>
+    <string name="Refresh">Güncelle</string>
+    <string name="action_ara">Arama</string>
+    <string name="action_list">Listele</string>
+    <!--  Toast  -->
+    <string name="internetyok">Internet Bağlantınız Yok</string>
+    <string name="search_no_result">Aramanızla Eşleşen Duyuru Yok</string>
+    <string name="tr_char">Lütfen Türkçe karakter kullanın</string>
+    <string name="search_in_all">Tüm Duyurularda Ara</string>
+    <string name="yeni_duyuru">Yeni Duyuru Var!</string>
+    <string name="yeni_duyuru_yok">Yeni Duyuru Yok</string>
+    <string name="duyuru_guncel">Duyurular Güncellendi</string>
+    <string name="register">Kayıt</string>
+    <string name="unregister">Kaydı Sil</string>
+
+    <string name="unregistered">Kayıt silindi, artık bildirim alamayacaksınız.</string>
+    <string name="registered">Kayıt başarılı</string>
+    <string name="close">Kapat</string>
+    <string name="save">Kaydet</string>
+    <string name="error">Hata</string>
+    <string name="con_error">Bağlantı Hatası</string>
+    <string name="connection">Bağlantı</string>
+    <string name="db_refreshing">Veritabanı Güncelleniyor...</string>
+    <string name="db_uptodate">Veritabanı Güncel.</string>
+    <string name="db_con_err">Bağlantı Hatası. Duyurular alınamadı.</string>
+    <string name="db_con_err_sol">Ayarlar/DB Yenile seçeneği ile tekrar deneyebilirsiniz.</string>
+    <string name="search_result">Arama Sonuçları</string>
+    <string name="yes">Evet</string>
+    <string name="no">Hayır</string>
+    <string name="not_now">Şimdi Değil</string>
+    <string name="libs">Kütüphaneler</string>
+    <string name="share">Paylaş</string>
+
+    <string name="long_dialog_title">Ek Seçenekler</string>
+    <string name="register_ask">Anlık bildirim servisine kayıt olmak ister misiniz?</string>
+    <string name="register_failed">Kayıt başarısız oldu. Ayarlardan tekrar deneyebilirsiniz.</string>
+    <string name="not_show_again">Asla</string>
+    <string name="are_you_sure">Emin misiniz?</string>
+    <string name="developer_set">Gelişmiş Ayarlar</string>
+    <string name="sic_title">Duyuru içeriğinde  de ara</string>
+    <string name="sic_sum">Aramalara duyuru içeriklerini de dahil eder</string>
+    <string name="theme_cb">Açık temayı kullan</string>
+    <string name="try_again">Tekrar Dene</string>
+    <string name="notifyReg_dialog_mess_f">Kayıt bulunamadı. Bildirim alabilmek için lütfen kayıt olun.</string>
+    <string name="loading">Yükleniyor...</string>
+    <string name="test_content_title">Tüm Öğrencilerin Dikkatine</string>
+    <string name="test_content_sub_title">15 Mayıs 2015</string>
+    <string name="open_in_browser">Tarayıcıda Aç</string>
+    <string name="search">Arama</string>
+    <string name="db_recreated">Veritabanı Yeniden Oluşturuldu</string>
+    <string name="other_settings">Diğer Ayarlar</string>
+
+    <string name="annc_updated"> Duyuru Güncellendi!</string>
+    <string name="db_recrating">Veritabanı Sıfırlanıyor</string>
+    <string name="licenses">Lisanslar</string>
+
+
+</resources>
