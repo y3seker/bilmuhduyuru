@@ -1,16 +1,16 @@
-package com.euBilmuhDuyuru.gcm;
+package com.y3seker.bilmuhduyuru.gcm;
 
 import android.app.IntentService;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.util.Log;
 
-import com.euBilmuhDuyuru.PreferencesHelper;
-import com.euBilmuhDuyuru.R;
-import com.euBilmuhDuyuru.connection.RegisterResponse;
-import com.euBilmuhDuyuru.connection.RestClient;
 import com.google.android.gms.gcm.GoogleCloudMessaging;
 import com.google.android.gms.iid.InstanceID;
+import com.y3seker.bilmuhduyuru.PreferencesHelper;
+import com.y3seker.bilmuhduyuru.R;
+import com.y3seker.bilmuhduyuru.connection.RegisterResponse;
+import com.y3seker.bilmuhduyuru.connection.RestClient;
 
 import retrofit.Callback;
 import retrofit.RetrofitError;

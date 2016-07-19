@@ -1,6 +1,6 @@
-package com.euBilmuhDuyuru.connection;
+package com.y3seker.bilmuhduyuru.connection;
 
-import com.euBilmuhDuyuru.models.Annc;
+import com.y3seker.bilmuhduyuru.models.Annc;
 
 import java.util.ArrayList;
 

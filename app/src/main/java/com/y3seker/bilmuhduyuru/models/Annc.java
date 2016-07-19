@@ -1,13 +1,13 @@
-package com.euBilmuhDuyuru.models;
+package com.y3seker.bilmuhduyuru.models;
 
 import android.os.Parcel;
 import android.os.Parcelable;
 import android.text.Html;
 
-import com.euBilmuhDuyuru.Utils;
+import com.y3seker.bilmuhduyuru.Utils;
 
-import java.util.Date;
 import java.text.ParseException;
+import java.util.Date;
 
 /**
  * Created by Yunus Emre Şeker on 03.03.2015.

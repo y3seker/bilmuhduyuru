@@ -1,4 +1,4 @@
-package com.euBilmuhDuyuru.database;
+package com.y3seker.bilmuhduyuru.database;
 
 import android.content.ContentValues;
 import android.content.Context;
@@ -8,7 +8,7 @@ import android.database.sqlite.SQLiteException;
 import android.database.sqlite.SQLiteOpenHelper;
 import android.util.Log;
 
-import com.euBilmuhDuyuru.models.Annc;
+import com.y3seker.bilmuhduyuru.models.Annc;
 
 import java.text.ParseException;
 import java.util.ArrayList;

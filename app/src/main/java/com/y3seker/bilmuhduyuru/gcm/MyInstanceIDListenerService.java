@@ -1,4 +1,4 @@
-package com.euBilmuhDuyuru.gcm;
+package com.y3seker.bilmuhduyuru.gcm;
 
 import android.content.Intent;
 

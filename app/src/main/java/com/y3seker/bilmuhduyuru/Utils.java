@@ -1,4 +1,4 @@
-package com.euBilmuhDuyuru;
+package com.y3seker.bilmuhduyuru;
 
 import android.app.Activity;
 import android.graphics.Color;
@@ -12,7 +12,6 @@ import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GoogleApiAvailability;
 import com.google.android.gms.common.GooglePlayServicesUtil;
 
-import java.sql.Time;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
 import java.util.Locale;

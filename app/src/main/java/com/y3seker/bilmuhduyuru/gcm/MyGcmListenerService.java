@@ -1,4 +1,4 @@
-package com.euBilmuhDuyuru.gcm;
+package com.y3seker.bilmuhduyuru.gcm;
 
 import android.app.Notification;
 import android.app.NotificationManager;
@@ -10,17 +10,17 @@ import android.os.Bundle;
 import android.support.v4.app.NotificationCompat;
 import android.util.Log;
 
-import com.euBilmuhDuyuru.models.Annc;
-import com.euBilmuhDuyuru.activities.MainActivity;
-import com.euBilmuhDuyuru.PreferencesHelper;
-import com.euBilmuhDuyuru.R;
-import com.euBilmuhDuyuru.connection.RestClient;
-import com.euBilmuhDuyuru.database.DatabaseHelper;
 import com.google.android.gms.gcm.GcmListenerService;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonParseException;
 import com.google.gson.reflect.TypeToken;
+import com.y3seker.bilmuhduyuru.PreferencesHelper;
+import com.y3seker.bilmuhduyuru.R;
+import com.y3seker.bilmuhduyuru.activities.MainActivity;
+import com.y3seker.bilmuhduyuru.connection.RestClient;
+import com.y3seker.bilmuhduyuru.database.DatabaseHelper;
+import com.y3seker.bilmuhduyuru.models.Annc;
 
 import java.lang.reflect.Type;
 import java.util.ArrayList;

@@ -1,4 +1,4 @@
-package com.euBilmuhDuyuru.ui;
+package com.y3seker.bilmuhduyuru.ui;
 
 
 import android.view.View;

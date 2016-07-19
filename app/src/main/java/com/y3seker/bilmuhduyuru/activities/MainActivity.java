@@ -1,4 +1,4 @@
-package com.euBilmuhDuyuru.activities;
+package com.y3seker.bilmuhduyuru.activities;
 
 import android.app.AlertDialog;
 import android.app.SearchManager;
@@ -28,15 +28,15 @@ import android.view.View;
 import android.widget.ProgressBar;
 import android.widget.TextView;
 
-import com.euBilmuhDuyuru.PreferencesHelper;
-import com.euBilmuhDuyuru.R;
-import com.euBilmuhDuyuru.Utils;
-import com.euBilmuhDuyuru.connection.RestClient;
-import com.euBilmuhDuyuru.database.DatabaseHelper;
-import com.euBilmuhDuyuru.gcm.RegistrationIntentService;
-import com.euBilmuhDuyuru.models.Annc;
-import com.euBilmuhDuyuru.models.AnncProxy;
-import com.euBilmuhDuyuru.ui.NewRVAdapter;
+import com.y3seker.bilmuhduyuru.PreferencesHelper;
+import com.y3seker.bilmuhduyuru.R;
+import com.y3seker.bilmuhduyuru.Utils;
+import com.y3seker.bilmuhduyuru.connection.RestClient;
+import com.y3seker.bilmuhduyuru.database.DatabaseHelper;
+import com.y3seker.bilmuhduyuru.gcm.RegistrationIntentService;
+import com.y3seker.bilmuhduyuru.models.Annc;
+import com.y3seker.bilmuhduyuru.models.AnncProxy;
+import com.y3seker.bilmuhduyuru.ui.NewRVAdapter;
 
 import java.util.ArrayList;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.euBilmuhDuyuru.ui;
+package com.y3seker.bilmuhduyuru.ui;
 
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;

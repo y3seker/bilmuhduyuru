@@ -5,7 +5,7 @@ android {
     compileSdkVersion 23
     buildToolsVersion "22.0.1"
     defaultConfig {
-        applicationId "com.euBilmuhDuyuru"
+        applicationId "com.y3seker.bilmuhduyuru"
         minSdkVersion 14
         targetSdkVersion 23
         versionCode 20

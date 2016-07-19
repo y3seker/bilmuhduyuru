@@ -1,4 +1,4 @@
-package com.euBilmuhDuyuru;
+package com.y3seker.bilmuhduyuru;
 
 import android.content.Context;
 import android.content.SharedPreferences;

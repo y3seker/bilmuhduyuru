@@ -1,7 +1,5 @@
-package com.euBilmuhDuyuru.connection;
+package com.y3seker.bilmuhduyuru.connection;
 
-import com.euBilmuhDuyuru.BuildConfig;
-import com.euBilmuhDuyuru.Utils;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import com.google.gson.JsonDeserializationContext;
@@ -9,6 +7,8 @@ import com.google.gson.JsonDeserializer;
 import com.google.gson.JsonElement;
 import com.google.gson.JsonParseException;
 import com.squareup.okhttp.OkHttpClient;
+import com.y3seker.bilmuhduyuru.BuildConfig;
+import com.y3seker.bilmuhduyuru.Utils;
 
 import java.lang.reflect.Type;
 import java.text.DateFormat;

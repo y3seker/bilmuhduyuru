@@ -1,18 +1,15 @@
-package com.euBilmuhDuyuru.ui;
+package com.y3seker.bilmuhduyuru.ui;
 
-import android.app.Activity;
 import android.content.Context;
 import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Filter;
-import android.widget.Filterable;
 import android.widget.TextView;
 
-import com.euBilmuhDuyuru.models.Annc;
-import com.euBilmuhDuyuru.R;
+import com.y3seker.bilmuhduyuru.R;
+import com.y3seker.bilmuhduyuru.models.Annc;
 
 import java.util.ArrayList;
 import java.util.List;

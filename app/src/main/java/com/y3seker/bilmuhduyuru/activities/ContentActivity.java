@@ -1,4 +1,4 @@
-package com.euBilmuhDuyuru.activities;
+package com.y3seker.bilmuhduyuru.activities;
 
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
@@ -20,9 +20,9 @@ import android.view.animation.AccelerateDecelerateInterpolator;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.euBilmuhDuyuru.R;
-import com.euBilmuhDuyuru.models.Annc;
-import com.euBilmuhDuyuru.ui.RevealEffect;
+import com.y3seker.bilmuhduyuru.R;
+import com.y3seker.bilmuhduyuru.models.Annc;
+import com.y3seker.bilmuhduyuru.ui.RevealEffect;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;

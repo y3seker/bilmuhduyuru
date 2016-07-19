@@ -1,4 +1,4 @@
-package com.euBilmuhDuyuru.connection;
+package com.y3seker.bilmuhduyuru.connection;
 
 /**
  * Created by Yunus Emre Şeker on 08.03.2015.

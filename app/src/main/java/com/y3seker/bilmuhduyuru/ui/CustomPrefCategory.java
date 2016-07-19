@@ -1,11 +1,11 @@
-package com.euBilmuhDuyuru.ui;
+package com.y3seker.bilmuhduyuru.ui;
 
 import android.content.Context;
 import android.os.Build;
 import android.preference.PreferenceCategory;
 import android.util.AttributeSet;
 
-import com.euBilmuhDuyuru.R;
+import com.y3seker.bilmuhduyuru.R;
 
 /**
  * Created by Yunus Emre Şeker on 14.03.2015.

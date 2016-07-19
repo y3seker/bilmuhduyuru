@@ -1,8 +1,8 @@
-package com.euBilmuhDuyuru.models;
+package com.y3seker.bilmuhduyuru.models;
 
 import android.database.Cursor;
 
-import com.euBilmuhDuyuru.database.DatabaseHelper;
+import com.y3seker.bilmuhduyuru.database.DatabaseHelper;
 
 import java.text.ParseException;
 

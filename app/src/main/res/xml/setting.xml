@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     tools:context=".Settings">
 
-    <com.euBilmuhDuyuru.ui.CustomPrefCategory android:title="@string/CTitle1">
+    <com.y3seker.bilmuhduyuru.ui.CustomPrefCategory android:title="@string/CTitle1">
 
         <EditTextPreference
             android:defaultValue=""
@@ -27,9 +27,9 @@
             android:key="theme_light"
             android:title="@string/theme_cb" />
 
-    </com.euBilmuhDuyuru.ui.CustomPrefCategory>
+    </com.y3seker.bilmuhduyuru.ui.CustomPrefCategory>
 
-    <com.euBilmuhDuyuru.ui.CustomPrefCategory
+    <com.y3seker.bilmuhduyuru.ui.CustomPrefCategory
         android:key="notification_category"
         android:title="@string/CTitle2">
 
@@ -51,9 +51,9 @@
             android:key="notification_register"
             android:title="@string/notifyRegister" />
 
-    </com.euBilmuhDuyuru.ui.CustomPrefCategory>
+    </com.y3seker.bilmuhduyuru.ui.CustomPrefCategory>
 
-    <com.euBilmuhDuyuru.ui.CustomPrefCategory android:title="@string/CTitle4">
+    <com.y3seker.bilmuhduyuru.ui.CustomPrefCategory android:title="@string/CTitle4">
         <Preference
             android:key="author"
             android:summary="@string/author_sum"
@@ -61,17 +61,17 @@
         <Preference
             android:key="license"
             android:title="@string/licenses" />
-    </com.euBilmuhDuyuru.ui.CustomPrefCategory>
+    </com.y3seker.bilmuhduyuru.ui.CustomPrefCategory>
 
     <PreferenceScreen
         android:key="developer"
         android:title="@string/other_settings">
-        <com.euBilmuhDuyuru.ui.CustomPrefCategory android:title="@string/CTitle3">
+        <com.y3seker.bilmuhduyuru.ui.CustomPrefCategory android:title="@string/CTitle3">
             <Preference
                 android:key="reset_database"
                 android:summary="@string/db_ref_sum"
                 android:title="@string/db_ref" />
-        </com.euBilmuhDuyuru.ui.CustomPrefCategory>
+        </com.y3seker.bilmuhduyuru.ui.CustomPrefCategory>
     </PreferenceScreen>
 
 </PreferenceScreen> <!-- android:background="#1b1e20" -->
